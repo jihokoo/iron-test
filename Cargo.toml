@@ -8,9 +8,12 @@ repository = "https://github.com/reem/iron-test"
 license = "MIT"
 
 [dependencies]
-iron = "*"
-hyper = "*"
 uuid = "*"
 url = "*"
 intovec = "*"
 
+[dependencies.iron]
+git = "https://github.com/jihokoo/iron.git"
+
+[dependencies.hyper]
+git = "https://github.com/jihokoo/hyper.git"
